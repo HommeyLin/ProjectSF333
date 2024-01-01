@@ -15,6 +15,7 @@
 		805B206B2B401D720091699C /* ProjectSF333UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805B206A2B401D720091699C /* ProjectSF333UITests.swift */; };
 		805B206D2B401D720091699C /* ProjectSF333UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805B206C2B401D720091699C /* ProjectSF333UITestsLaunchTests.swift */; };
 		805B207A2B401EFE0091699C /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805B20792B401EFE0091699C /* CustomTabBar.swift */; };
+		805B207F2B4062CA0091699C /* Game1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805B207E2B4062CA0091699C /* Game1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		805B206A2B401D720091699C /* ProjectSF333UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSF333UITests.swift; sourceTree = "<group>"; };
 		805B206C2B401D720091699C /* ProjectSF333UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSF333UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		805B20792B401EFE0091699C /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		805B207E2B4062CA0091699C /* Game1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +98,7 @@
 		805B204E2B401D700091699C /* ProjectSF333 */ = {
 			isa = PBXGroup;
 			children = (
-				805B207B2B4026D60091699C /* Home */,
+				805B207E2B4062CA0091699C /* Game1.swift */,
 				805B20792B401EFE0091699C /* CustomTabBar.swift */,
 				805B204F2B401D700091699C /* ProjectSF333App.swift */,
 				805B20512B401D700091699C /* ContentView.swift */,
@@ -129,13 +131,6 @@
 				805B206C2B401D720091699C /* ProjectSF333UITestsLaunchTests.swift */,
 			);
 			path = ProjectSF333UITests;
-			sourceTree = "<group>";
-		};
-		805B207B2B4026D60091699C /* Home */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				805B20522B401D700091699C /* ContentView.swift in Sources */,
+				805B207F2B4062CA0091699C /* Game1.swift in Sources */,
 				805B207A2B401EFE0091699C /* CustomTabBar.swift in Sources */,
 				805B20502B401D700091699C /* ProjectSF333App.swift in Sources */,
 			);

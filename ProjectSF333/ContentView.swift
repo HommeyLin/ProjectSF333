@@ -15,8 +15,7 @@ import UIKit
 
 struct ContentView: View {
     
-//    @State var index = 0
-    @State private var selectedTab: Tab = .house
+//    @State private var selectedTab: Tab = .house
 
     
     var body: some View {
@@ -27,7 +26,9 @@ struct ContentView: View {
             
             Spacer(minLength: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/)
             
-            CustomTabBar(selectedTab: $selectedTab)
+            CustomTabBar()
+            
+//            CustomTabBar(selectedTab: $selectedTab)
 
             
         }
@@ -150,11 +151,11 @@ extension Date {
 
 //Score Game
 
-var scoreGame1 = 30
-var scoreGame2 = 50
-var scoreGame3 = 45
+var played1 = 3
+var played2 = 50
+var played3 = 45
 
-var scoreTotal = scoreGame1 + scoreGame1 + scoreGame1
+var scoreTotal = scoreGame1 + scoreGame2 + scoreGame3
 
 
 //Score Total
@@ -187,9 +188,9 @@ struct ValuePerCategory{
 }
 
 let data: [ValuePerCategory] = [
-    .init(Category: "Game 1", value: scoreGame1),
-    .init(Category: "Game 2", value: scoreGame2),
-    .init(Category: "Game 3", value: scoreGame3)
+    .init(Category: "Game 1", value: played1),
+    .init(Category: "Game 2", value: played2),
+    .init(Category: "Game 3", value: played3)
 ]
 
 
@@ -198,33 +199,6 @@ let data: [ValuePerCategory] = [
 struct chart_score_game: View {
     
     var body: some View{
-        
-// แยกกราฟแต่ละแท่ง(สามารถเปลี่ยนสีแต่ละแท่งได้)
-//        Chart{
-//            BarMark(
-//                x: .value("Game", "Game1"),
-//                y: .value("score", scoreGame1)
-//            )
-//            .foregroundStyle(Color("Color_cornflower").opacity(0.8))
-//
-//            BarMark(
-//                x: .value("Game", "Game2"),
-//                y: .value("score", scoreGame2)
-//            )
-//            .foregroundStyle(Color("Color_cornflower").opacity(0.8))
-//
-//            BarMark(
-//                x: .value("Game", "Game3"),
-//                y: .value("score", scoreGame3)
-//            )
-//            .foregroundStyle(Color("Color_cornflower").opacity(0.8))
-//
-//        }
-//        .background(Color("Color_pink").opacity(0.5))
-//        .clipShape(Rectangle())
-//        .cornerRadius(15)
-//        .padding()
-        
         
         Chart(data, id: \.Category){ item in
             BarMark(
@@ -241,7 +215,4 @@ struct chart_score_game: View {
         
     }
 }
-
-
-//Sample Score Game
 

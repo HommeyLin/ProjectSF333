@@ -1,0 +1,25 @@
+
+Showing Recent Issues
+
+Build target ProjectSF333 of project ProjectSF333 with configuration Debug
+
+Ld /Users/hommey/Library/Developer/Xcode/DerivedData/ProjectSF333-endtngghmlodqifjtmtkgulufvqk/Build/Intermediates.noindex/Previews/ProjectSF333/Products/Debug-iphonesimulator/ProjectSF333.app/ProjectSF333 normal (in target 'ProjectSF333' from project 'ProjectSF333')
+    cd /Users/hommey/Documents/TU/SF333/ProjectSF333
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.2-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator17.2.sdk -O0 -L/Users/hommey/Library/Developer/Xcode/DerivedData/ProjectSF333-endtngghmlodqifjtmtkgulufvqk/Build/Intermediates.noindex/Previews/ProjectSF333/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/Users/hommey/Library/Developer/Xcode/DerivedData/ProjectSF333-endtngghmlodqifjtmtkgulufvqk/Build/Intermediates.noindex/Previews/ProjectSF333/Products/Debug-iphonesimulator -F/Users/hommey/Library/Developer/Xcode/DerivedData/ProjectSF333-endtngghmlodqifjtmtkgulufvqk/Build/Intermediates.noindex/Previews/ProjectSF333/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/Users/hommey/Library/Developer/Xcode/DerivedData/ProjectSF333-endtngghmlodqifjtmtkgulufvqk/Build/Intermediates.noindex/Previews/ProjectSF333/Products/Debug-iphonesimulator -filelist /Users/hommey/Library/Developer/Xcode/DerivedData/ProjectSF333-endtngghmlodqifjtmtkgulufvqk/Build/Intermediates.noindex/Previews/ProjectSF333/Intermediates.noindex/ProjectSF333.build/Debug-iphonesimulator/ProjectSF333.build/Objects-normal/arm64/ProjectSF333.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -dead_strip -Xlinker -object_path_lto -Xlinker /Users/hommey/Library/Developer/Xcode/DerivedData/ProjectSF333-endtngghmlodqifjtmtkgulufvqk/Build/Intermediates.noindex/Previews/ProjectSF333/Intermediates.noindex/ProjectSF333.build/Debug-iphonesimulator/ProjectSF333.build/Objects-normal/arm64/ProjectSF333_lto.o -Xlinker -export_dynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -debug_variant -fobjc-link-runtime -fprofile-instr-generate -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/hommey/Library/Developer/Xcode/DerivedData/ProjectSF333-endtngghmlodqifjtmtkgulufvqk/Build/Intermediates.noindex/Previews/ProjectSF333/Intermediates.noindex/ProjectSF333.build/Debug-iphonesimulator/ProjectSF333.build/Objects-normal/arm64/ProjectSF333.swiftmodule -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/hommey/Library/Developer/Xcode/DerivedData/ProjectSF333-endtngghmlodqifjtmtkgulufvqk/Build/Intermediates.noindex/Previews/ProjectSF333/Intermediates.noindex/ProjectSF333.build/Debug-iphonesimulator/ProjectSF333.build/ProjectSF333.app-Simulated.xcent -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __ents_der -Xlinker /Users/hommey/Library/Developer/Xcode/DerivedData/ProjectSF333-endtngghmlodqifjtmtkgulufvqk/Build/Intermediates.noindex/Previews/ProjectSF333/Intermediates.noindex/ProjectSF333.build/Debug-iphonesimulator/ProjectSF333.build/ProjectSF333.app-Simulated.xcent.der -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/hommey/Library/Developer/Xcode/DerivedData/ProjectSF333-endtngghmlodqifjtmtkgulufvqk/Build/Intermediates.noindex/Previews/ProjectSF333/Intermediates.noindex/ProjectSF333.build/Debug-iphonesimulator/ProjectSF333.build/Objects-normal/arm64/ProjectSF333_dependency_info.dat -o /Users/hommey/Library/Developer/Xcode/DerivedData/ProjectSF333-endtngghmlodqifjtmtkgulufvqk/Build/Intermediates.noindex/Previews/ProjectSF333/Products/Debug-iphonesimulator/ProjectSF333.app/ProjectSF333
+
+ld: Undefined symbols:
+  ProjectSF333.CustomTabBar.init(selectedTab: SwiftUI.Binding<ProjectSF333.Tab>) -> ProjectSF333.CustomTabBar, referenced from:
+      ProjectSF333.Game1.body.getter : some in Game1.o
+  nominal type descriptor for ProjectSF333.Tab, referenced from:
+      _symbolic _____y_____G 7SwiftUI5StateV 12ProjectSF3333TabO in Game1.o
+  type metadata for ProjectSF333.Tab, referenced from:
+      property wrapper backing initializer of ProjectSF333.Game1.(selectedTab in _0CC6D4138F8975E935C28051B8BB0EF7) : ProjectSF333.Tab in Game1.o
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+Undefined symbols:
+
+Linker command failed with exit code 1 (use -v to see invocation)
+
+
+
+Build failed    31/12/2566 BE, 12:14    0.8 seconds
